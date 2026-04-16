@@ -12,7 +12,7 @@ Variables, constants, operators, expressions, selection statements (`if`, `if...
 ---
 
 ## Background
-A university uses **Grade Point Average (GPA)** to measure a student’s academic performance in a semester and **Cumulative Grade Point Average (CGPA)** to measure performance across semesters.
+Kyambogo university uses **Grade Point Average (GPA)** to measure a student’s academic performance in a semester and **Cumulative Grade Point Average (CGPA)** to measure performance across semesters.
 
 In this assignment, you will write **one C program** that calculates:
 
@@ -29,48 +29,48 @@ using the actual Year One TEMB course structure and **credit units** given below
 
 ### Year One, Semester I
 
-| Course Code | Course Name                                   | Credit Units |
-|------------|-----------------------------------------------|-------------|
-| TEMB 1101  | Fundamentals of Engineering Mathematics        | 4           |
-| TEMB 1102  | Biochemistry and Medical Physics              | 3           |
-| TEMB 1103  | Electrical Engineering Science                | 3           |
-| TEMB 1104  | Mechanics I                                   | 3           |
-| TEMB 1105  | Computing I                                   | 3           |
-| TEMB 1106  | Mechanical Drawing                            | 3           |
-| TEMB 1107  | Engineering Profession                        | 2           |
-| TEMB 1108  | Functional Anatomy and Physiology I           | 3           |
+| Course Code | Course Name | Credit Units |
+|---|---|---:|
+| TEMB 1101 | Fundamentals of Engineering Mathematics | 4 |
+| TEMB 1102 | Biochemistry and Medical Physics | 3 |
+| TEMB 1103 | Electrical Engineering Science | 3 |
+| TEMB 1104 | Mechanics I | 3 |
+| TEMB 1105 | Computing I | 3 |
+| TEMB 1106 | Mechanical Drawing | 3 |
+| TEMB 1107 | Engineering Profession | 2 |
+| TEMB 1108 | Functional Anatomy and Physiology I | 3 |
 
 ### Year One, Semester II
 
-| Course Code | Course Name                                   | Credit Units |
-|------------|-----------------------------------------------|-------------|
-| TEMB 1201  | Further Engineering Mathematics                | 4           |
-| TEMB 1202  | Computing II                                  | 3           |
-| TEMB 1203  | Mechatronics Drawing                          | 3           |
-| TEMB 1204  | Fluid Mechanics                               | 3           |
-| TEMB 1205  | Thermodynamics                                | 3           |
-| TEMB 1206  | Workshop Practice                             | 3           |
-| TEMB 1207  | Functional Anatomy and Physiology II          | 3           |
-| TEMB 1208  | Electronics I                                 | 3           |
+| Course Code | Course Name | Credit Units |
+|---|---|---:|
+| TEMB 1201 | Further Engineering Mathematics | 4 |
+| TEMB 1202 | Computing II | 3 |
+| TEMB 1203 | Mechatronics Drawing | 3 |
+| TEMB 1204 | Fluid Mechanics | 3 |
+| TEMB 1205 | Thermodynamics | 3 |
+| TEMB 1206 | Workshop Practice | 3 |
+| TEMB 1207 | Functional Anatomy and Physiology II | 3 |
+| TEMB 1208 | Electronics I | 3 |
 
 ---
 
 ## Grading Scale
 
 | Score Range | Grade | Grade Point |
-|------------|------|------------|
-| 80–100     | A    | 5          |
-| 70–79      | B    | 4          |
-| 60–69      | C    | 3          |
-| 50–59      | D    | 2          |
-| 0–49       | F    | 0          |
+|---|---|---:|
+| 80–100 | A | 5 |
+| 70–79 | B | 4 |
+| 60–69 | C | 3 |
+| 50–59 | D | 2 |
+| 0–49 | F | 0 |
 
 ---
 
 ## Classification
 
 | CGPA Range | Classification |
-|-----------|----------------|
+|---|---|
 | 4.40 – 5.00 | First Class |
 | 3.60 – 4.39 | Second Class Upper |
 | 2.80 – 3.59 | Second Class Lower |
@@ -99,18 +99,21 @@ Write **one C program** in `main.c` that:
 
 ## Student Identification (Required)
 
-At the very top of your `main.c` file, include:
+At the very top of your `main.c` file, you must include your:
 
 - Full Name  
 - Registration Number  
 
-### Example:
+as comments.
+
+### Example
 
 ```c
 /*
 Name: John Doe
 Registration Number: 23/U/12345
 */
+```
 
 Programs without this information may lose marks.
 
