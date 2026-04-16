@@ -197,8 +197,7 @@ and terminate the program.
 ## Technical Requirements
 
 - Use **one file**: `main.c`  
-- Use `if...else` for grading and classification  
-- `switch` is optional  
+- Use selection statements of your choice (e.g.`if...else`, `switch`, etc) 
 - Display GPA and CGPA to **2 decimal places**  
 - Code must compile with:
 
