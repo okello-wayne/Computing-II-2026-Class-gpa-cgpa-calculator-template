@@ -1,4 +1,4 @@
-# Year One GPA and CGPA Calculator 
+# GPA and CGPA Calculator in C
 
 ## Course
 Computing II
@@ -12,7 +12,7 @@ Variables, constants, operators, expressions, selection statements (`if`, `if...
 ---
 
 ## Background
-Kyambogo university uses **Grade Point Average (GPA)** to measure a student’s academic performance in a semester and **Cumulative Grade Point Average (CGPA)** to measure performance across semesters.
+A university uses **Grade Point Average (GPA)** to measure a student’s academic performance in a semester and **Cumulative Grade Point Average (CGPA)** to measure performance across semesters.
 
 In this assignment, you will write **one C program** that calculates:
 
@@ -79,16 +79,6 @@ After calculating CGPA, classify the student as follows:
 
 ---
 
-## Formulae
-
-### Semester GPA
-GPA = sum(grade point × credit unit) / sum(credit units)
-
-### CGPA
-CGPA = ((GPA1 × total credit units in semester 1) + (GPA2 × total credit units in semester 2)) / (total credit units in semester 1 + total credit units in semester 2)
-
----
-
 ## Your Task
 Write **one C program** in `main.c` that:
 
@@ -98,9 +88,29 @@ Write **one C program** in `main.c` that:
 4. calculates:
    - Semester I GPA
    - Semester II GPA
-   - Overall CGPA
-5. displays the final academic classification
+   - Overall CGPA for Year One
+5. displays a **full academic report**
+6. displays the final academic classification
 
+You are expected to determine the correct method for calculating GPA and CGPA using the course scores, grade points, and credit units.
+
+---
+## Student Identification (Required)
+
+At the very top of your `main.c` file, you must include your:
+
+- Full Name  
+- Registration Number  
+
+as comments.
+
+Example:
+
+```c
+/*
+Name: John Doe
+Registration Number: 23/U/12345
+*/
 ---
 
 ## Input Format
@@ -133,29 +143,22 @@ You may display prompts, but your program must still correctly read the 16 score
 ## Output Format
 Your program should display a **full academic report** for the student.
 
-The report may include:
+The report should include, for each course:
 - course code
 - score
 - grade
 - grade point
 - credit unit
-- weighted points
+- weighted contribution
 
-It must also display the following summary lines clearly:
+It must also clearly display:
+- Semester I GPA
+- Semester II GPA
+- CGPA
+- Classification
 
-Semester I GPA: XX.XX  
-Semester II GPA: XX.XX  
-CGPA: XX.XX  
-Classification: XXXXX
+For autograding to work correctly, your output must include these summary labels exactly:
 
-Example summary section:
-
-Semester I GPA: 4.17  
-Semester II GPA: 3.54  
-CGPA: 3.85  
-Classification: Second Class Upper
-
-For autograding to work correctly, these summary labels must appear exactly as written:
 - `Semester I GPA:`
 - `Semester II GPA:`
 - `CGPA:`
